@@ -36,6 +36,6 @@ int main() {
         }
         left++;
     }
-
+    
     return 0;
 }
