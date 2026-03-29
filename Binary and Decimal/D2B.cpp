@@ -16,6 +16,7 @@ void decToBin(int n) {
 }
 
 int main() {
+    
     decToBin(13);
     return 0;
 }
