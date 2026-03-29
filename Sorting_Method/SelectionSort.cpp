@@ -42,3 +42,6 @@ int main()
 
     return 0;
 }
+
+// TC O(N^2)
+// SC O(1)

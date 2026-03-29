@@ -44,7 +44,6 @@ void QuickSort(int arr[], int si, int ei)
     QuickSort(arr, pivotidx + 1, ei); // right half
 }
 
-
 int main()
 {
 
@@ -56,3 +55,6 @@ int main()
 
     return 0;
 }
+
+// TC AVG O(N*log(N)) WORST O(N^2)
+// SC O(1)
