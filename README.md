@@ -241,7 +241,7 @@ Why C++?
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/your-username/your-repository-name.git](https://github.com/hetpatel1b/DSA-IN-C--.git
 ```
 
 ### 2️⃣ Go to repository folder
