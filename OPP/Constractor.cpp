@@ -34,11 +34,11 @@ public:
 
 int main()
 {
-    Car s1;
+    Car c1;
 
-    Car s2("BMW M4", "Black");
+    Car c2("BMW M4", "Black");
 
-    cout << s2.getName() << endl;
-    cout << s2.getColor() << endl;
+    cout << c2.getName() << endl;
+    cout << c2.getColor() << endl;
     return 0;
 }
