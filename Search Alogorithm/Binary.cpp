@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 
+// Binary search works on sorted array
 int binsearch(int arr[], int n, int key)
 {
     int st = 0, end = n - 1;
 
     while (st <= end)
     {
+        // Check middle element
         int mid = (st + end) / 2;
         if (arr[mid] == key)
         {

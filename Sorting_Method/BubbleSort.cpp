@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Bubble sort repeatedly swaps adjacent elements
 void bubbleSort(int arr[], int n)
 {
     for (int i = 0; i < n - 1; i++)

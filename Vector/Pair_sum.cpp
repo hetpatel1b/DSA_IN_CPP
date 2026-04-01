@@ -19,6 +19,7 @@ int main() {
     cout << "Enter target sum: ";
     cin >> target;
 
+    // Sort first, then use two pointers
     sort(v.begin(), v.end());
 
     int st = 0,end = n - 1,found = 0;

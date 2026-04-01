@@ -11,6 +11,7 @@ int main() {
     int top = 0, bottom = 2;
     int left = 0, right = 2;
 
+    // Print matrix in spiral order
     while (top <= bottom && left <= right) {
 
         for (int i = left; i <= right; i++) {

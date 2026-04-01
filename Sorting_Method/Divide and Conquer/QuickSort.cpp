@@ -10,6 +10,7 @@ void printArr(int arr[], int n)
     }
 }
 
+// Place pivot at correct position
 int partition(int arr[], int si, int ei)
 {
     int i = si - 1;
@@ -32,12 +33,12 @@ int partition(int arr[], int si, int ei)
 
 void QuickSort(int arr[], int si, int ei)
 {
-
     if (si >= ei)
     {
         return;
     }
 
+    // Recursively sort left and right parts
     int pivotidx = partition(arr, si, ei);
 
     QuickSort(arr, si, pivotidx - 1); // left half

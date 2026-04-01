@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+// Merge two sorted halves
 void Merge(int arr[], int si, int mid, int ei)
 {
 
@@ -39,13 +40,13 @@ void Merge(int arr[], int si, int mid, int ei)
 
 void MergeSort(int arr[], int si, int ei)
 {
-
     if (si >= ei)
     {
         return;
     }
 
-    int mid = (si + ei) / 2; // si+ (ei-si)/2
+    // Divide array into two halves
+    int mid = (si + ei) / 2;
 
     MergeSort(arr, si, mid);     // left half
     MergeSort(arr, mid + 1, ei); // right half

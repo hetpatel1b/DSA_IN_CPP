@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Insertion sort places each element at its correct position
 void insertionSort(int arr[], int n)
 {
     for (int i = 1; i < n; i++)

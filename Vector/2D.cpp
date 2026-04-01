@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-
+    // 2D vector example
     vector<vector<int>> matrix = {
         {1, 2, 3},
         {4, 5, 6},

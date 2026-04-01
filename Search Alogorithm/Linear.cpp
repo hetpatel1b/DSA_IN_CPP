@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Linear search checks each element one by one
 int linearSearch(int arr[], int n, int key)
 {
     for (int i = 0; i < n; i++)

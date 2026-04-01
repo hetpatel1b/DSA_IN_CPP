@@ -9,6 +9,7 @@ int main() {
     cout << "Enter binary number: ";
     cin >> binary;
 
+    // Convert binary digits into decimal value
     while (binary != 0) {
         remainder = binary % 10;
         decimal = decimal + remainder * pow(2, i);

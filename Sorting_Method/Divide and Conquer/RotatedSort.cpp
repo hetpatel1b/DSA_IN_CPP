@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Search element in rotated sorted array
 int search(int arr[], int si, int ei, int tar)
 {
     if (si > ei)
@@ -11,10 +12,10 @@ int search(int arr[], int si, int ei, int tar)
     int mid = (si + ei) / 2;
     if (arr[mid] == tar)
     {
-
         return mid;
     }
 
+    // Check which side is sorted
     if (arr[si] <= arr[mid])
     {
         if (arr[si] <= tar && tar <= arr[mid])
