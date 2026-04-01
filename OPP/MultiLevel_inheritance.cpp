@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Base class
 class Animal
 {
 
@@ -11,12 +12,14 @@ public:
     {
         cout << "Eating..." << endl;
     }
+
     void breathe()
     {
         cout << "Breathing..." << endl;
     }
 };
 
+// Derived class of Animal
 class Mammal : public Animal
 {
 public:
@@ -28,6 +31,7 @@ public:
     }
 };
 
+// Multilevel inheritance: Animal -> Mammal -> Dog
 class Dog : public Mammal
 {
 public:
@@ -39,6 +43,7 @@ public:
 
 int main()
 {
+    // Dog object can access members of both Mammal and Animal
     Dog d1;
     d1.eats();
     d1.breathe();

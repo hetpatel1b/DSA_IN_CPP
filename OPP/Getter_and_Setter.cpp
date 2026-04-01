@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Example of encapsulation using getter and setter
 class Student
 {
     string name;
@@ -35,7 +36,6 @@ public:
 
 int main()
 {
-
     Student s1;
 
     s1.setName("Het Patel");

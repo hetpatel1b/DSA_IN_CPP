@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Example of copy constructor
 class Car
 {
 public:
@@ -26,6 +27,7 @@ int main()
 {
     Car c1("BMW M4", "Black");
 
+    // Copy constructor is called here
     Car c2(c1);
 
     cout << c2.carname << endl;

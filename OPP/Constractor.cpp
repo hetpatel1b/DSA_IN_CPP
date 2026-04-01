@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Example of default and parameterized constructor
 class Car
 {
 
@@ -34,8 +35,10 @@ public:
 
 int main()
 {
+    // Default constructor call
     Car c1;
 
+    // Parameterized constructor call
     Car c2("BMW M4", "Black");
 
     cout << c2.getName() << endl;

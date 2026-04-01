@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Example of deep copy and destructor
 class Car
 {
 public:
@@ -40,6 +41,7 @@ int main()
 {
     Car c1("BMW M4", "Black");
 
+    // Copy constructor creates a separate mileage value
     Car c2(c1);
 
     cout << c2.carname << endl;

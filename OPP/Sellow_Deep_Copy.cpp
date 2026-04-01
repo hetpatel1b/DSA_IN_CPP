@@ -1,29 +1,29 @@
 #include <iostream>
 using namespace std;
 
+// Example of shallow copy and deep copy
 class CopyExample
 {
 public:
     int *data;
 
-    // Constructor
     CopyExample(int value)
     {
         data = new int;
         *data = value;
     }
 
-    // Shallow Copy Constructor
+    // Shallow copy constructor
     CopyExample(const CopyExample &obj)
     {
-        data = obj.data; // only address copied
+        data = obj.data;
     }
 
-    // Deep Copy Function
+    // Deep copy function
     void deepCopy(const CopyExample &obj)
     {
-        data = new int;      // new memory
-        *data = *(obj.data); // copy value
+        data = new int;
+        *data = *(obj.data);
     }
 
     void display()
@@ -34,8 +34,7 @@ public:
 
 int main()
 {
-
-    // Shallow Copy
+    // Shallow copy
     CopyExample obj1(10);
     CopyExample obj2 = obj1;
 
@@ -45,7 +44,7 @@ int main()
     obj1.display();
     obj2.display();
 
-    // Deep Copy
+    // Deep copy
     CopyExample obj3(20);
     CopyExample obj4(0);
 

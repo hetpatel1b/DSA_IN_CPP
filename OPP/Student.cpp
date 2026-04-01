@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Simple class example
 class Student
 {
 public:
@@ -15,7 +16,6 @@ public:
 
 int main()
 {
-
     Student s1;
 
     s1.name = "Het Prashant Patel";

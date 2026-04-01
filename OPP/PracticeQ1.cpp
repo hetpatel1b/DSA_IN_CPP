@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Example of private data with public methods
 class User
 {
     int id;
@@ -28,6 +29,7 @@ public:
 int main()
 {
     User u1(25024);
+
     u1.username = "Het Prashant Patel";
     u1.setpassword("LalKillo@24");
 

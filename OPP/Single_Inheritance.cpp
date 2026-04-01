@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Base class
 class Animal
 {
 
@@ -17,6 +18,7 @@ public:
     }
 };
 
+// Derived class of Animal
 class Fish : public Animal
 {
 public:
@@ -30,6 +32,7 @@ public:
 
 int main()
 {
+    // Fish object can access its own and inherited members
     Fish f1;
     f1.fins = 3;
     cout << f1.fins << endl;
