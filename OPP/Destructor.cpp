@@ -49,3 +49,6 @@ int main()
     cout << *c2.mileage << endl;
     return 0;
 }
+
+// TC: O(1)
+// SC: O(1)

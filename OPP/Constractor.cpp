@@ -45,3 +45,6 @@ int main()
     cout << c2.getColor() << endl;
     return 0;
 }
+
+// TC: O(1)
+// SC: O(1)

@@ -21,3 +21,6 @@ int main() {
     
     return 0;
 }
+
+// TC: O(number of binary digits)
+// SC: O(1)

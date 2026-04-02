@@ -40,3 +40,6 @@ int main() {
     
     return 0;
 }
+
+// TC: O(rows * cols)
+// SC: O(1)

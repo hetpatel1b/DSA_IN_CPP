@@ -21,3 +21,6 @@ int main() {
     decToBin(13);
     return 0;
 }
+
+// TC: O(number of binary digits)
+// SC: O(1)

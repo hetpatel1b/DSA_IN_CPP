@@ -13,3 +13,6 @@ int main()
     cout << sum(x, y);
     return 0;
 }
+
+// TC: O(1)
+// SC: O(1)

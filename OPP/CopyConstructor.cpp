@@ -34,3 +34,6 @@ int main()
     cout << c2.carcolor << endl;
     return 0;
 }
+
+// TC: O(1)
+// SC: O(1)

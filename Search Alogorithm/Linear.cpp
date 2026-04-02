@@ -23,3 +23,6 @@ int main()
 
     cout << linearSearch(arr, n, 61) << endl;
 }
+
+// TC: O(n)
+// SC: O(1)

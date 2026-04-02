@@ -46,3 +46,6 @@ int main() {
 
     return 0;
 }
+
+// TC: O(n log n)
+// SC: O(1)
