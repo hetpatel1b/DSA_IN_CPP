@@ -126,6 +126,7 @@ public:
             count++;
         }
         cout << "Null\n";
+        return -1;
     }
 
     void printList()
@@ -158,6 +159,6 @@ int main()
 
     int x = ll.searchItr(2);
 
-    cout << "Posion of 2 At " << x;
+    cout << "Position of 2 At " << x;
     return 0;
 }
