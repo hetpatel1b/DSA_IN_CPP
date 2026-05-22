@@ -15,7 +15,7 @@ public:
 
     ~Node()
     {
-        cout << "node destructor for data =" << data << endl;
+        cout << "Node Destructor for data =" << data << endl;
         if (next != NULL)
         {
             delete next;
@@ -38,6 +38,7 @@ public:
 
     ~List()
     {
+        cout << "List Destructor" << endl;
         if (head != NULL)
         {
             delete head;
