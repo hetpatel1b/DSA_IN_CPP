@@ -115,15 +115,15 @@ public:
     int searchItr(int key)
     {
         Node *temp = head;
-        int count = 0;
+        int index = 0;
         while (temp != NULL)
         {
             if (temp->data == key)
             {
-                return count;
+                return index;
             }
             temp = temp->next;
-            count++;
+            index++;
         }
         cout << "Null\n";
         return -1;
