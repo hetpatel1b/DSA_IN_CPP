@@ -75,7 +75,7 @@ public:
         return false;
     }
 
-    void removeCycle(Node *head)
+    void removeCycle()
     {
         Node *slow = head;
         Node *fast = head;
@@ -143,7 +143,7 @@ int main()
 
     ll.tail->next = ll.head;
 
-    ll.removeCycle(ll.head);
+    ll.removeCycle();
     ll.printList();
     return 0;
 }
